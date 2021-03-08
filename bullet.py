@@ -22,7 +22,7 @@ class Bullet(Sprite):
     def update(self):
         # move bullet up screen
         # update decimal postion
-        self.y -= self.settings.bullt_speed
+        self.y -= self.settings.bullet_speed
         # update rect
         self.rect.y = self.y
 
